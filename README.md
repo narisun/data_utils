@@ -20,7 +20,16 @@ Clone or download this repository.
 Create a virtual environment (recommended):
 
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+
+Windows:
+
+venv\Scripts\activate
+
+
+Mac/Linux:
+
+source venv/bin/activate
 
 
 Install dependencies:
@@ -63,4 +72,6 @@ Create a new file in the utils/ folder (e.g., utils/json_validate.py).
 
 Add a main() function and an if __name__ == "__main__": block.
 
-Run it using python -m utils.json_validate ....
+Run it using:
+
+python -m utils.json_validate ....
